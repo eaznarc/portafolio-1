@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="" method="post" enctype="text/plain"><!-- , , es para indicar que tipo de texto es(texto plano aquí)-->
+        <fieldset>
+            <br/><legend>Datos del usuario</legend><!--Para ponerle un título-->
+            <br/><label for="usuario">Nombre de usuario:</label>
+            <br/><input type="text" placeholder="Usuario" maxlength="12" name="usuario" id="usuario"/><br/><!--Placeholder es para tener un texto que se borre al escribir-->
+
+            <br/><label for="nombre">Nombre:</label>
+            <br/><input type="text" name="nombre" id="nombre" maxlength="25" placeholder="Nombre"/><br/>
+
+            <br/><label for="ap">Apellido paterno:</label>
+            <br/><input type="text" name="ap" id="ap" maxlength="25" placeholder="Apellido paterno"/><br/>
+
+            <br/><label for="am">Apellido materno:</label>
+            <br/><input type="text" name="am" id="am" maxlength="25" placeholder="Apellido materno"/><br/>
+
+            <br/><label for="pass">Contraseña:</label>
+            <br/><input type="password" name="pass" id="pass" placeholder="" required/><br/>
+
+            <br/><label for="comenta">Comentarios</label><br/>
+            <br/><textarea name="comenta" id="comenta" cols="25" rows="10"> </textarea><br/><!--cols para columnas, rows para filas-->
+
+            <br/><label for="correo">E-mail:</label>
+            <br/><input type="email" name="correo" id="correo"/>
+
+            <br/><label for="fecha">Fecha de nacimiento:</label>
+            <br/><input type="date" name="fecha" id="fecha"/>
+
+            <br/><label for="color">Selecciona un color:</label>
+            <br/><input type="color" name="color" id="color"/>
+
+            <br/><label for="mes">Mes de registro:</label>
+            <br/><input type="month" name="mes" id="mes"/>
+
+            <br/><label for="semana">Semana de registro:</label>
+            <br/><input type="week" name="semana" id="semana" required/>
+
+            <br/><label for="hora">Fecha y hora:</label>
+            <br/><input type="datetime-local" name="hora" id="hora"/>
+
+            <br/><label for="archivo">Adjuntar archivo: </label>
+            <br/><input type="file" name="archivo" id="archivo"/>
+
+            <br/><label for="durl">Dirección sitio Web:</label>
+            <br/><input type="url" name="durl" id="durl"/>
+
+            <br/><label for="productos">Cantidad a comprar:</label>
+            <br/><input type="number" name="productos" id="productos"/><!--Type number solo sirve para solicitar números enteros-->
+            
+            <br/><label for="range_control">Califica el sitio:</label>
+            <br/><input type="range" name="range_control" id="range_control" min="0" max="10" value="6" required/><!--Min es para valor mínimo aceptado, más para el valor máximo aceptado y value es el valor recomendado por la página-->
+
+            <h3>Indica tus formas de pago preferidas</h3>
+            <input type="checkbox" name="tarjeta" id="tarjeta" value="tarjeta"/>
+            <label for="tarjeta">Tarjeta de crédito</label><br/>
+            <input type="checkbox" name="tarjetad" id="tarjetad" value="tarjetad" checked/><!--Checked es para que la casilla este seleccionada desde que la página carga-->
+            <label for="tarjetad">Tarjeta de débito</label><br/>
+            <input type="checkbox" name="transfer" id="transfer" value="transfer"/>
+            <label for="transfer">Transferencia</label><br/>
+
+            <h3>Indique su género</h3>
+            <input type="radio" name="género" id="género"/><!--Para que solo se puedan seleccionar una de las opciones de la etiqueta, deben tener el mismo nombre para que funcione-->
+            <label for="género">Masculino</label><br/>
+            <input type="radio" name="género" id="género"/>
+            <label for="género">Femenino</label><br/>
+
+            <h3>Categoría de producto a buscar</h3>
+
+            <select size="7" multiple ><!--Select es para generar una lista de opciones a elegir, size para la cantidad de opcoiones que muestra y multiple para poder elegir más de una opción-->
+                <optgroup label="Alimentos"><!--Para agrupar las opciones-->
+                    <option>Lácteos</option>
+                    <option>Refrigerados</option>
+                    <option>Carnes</option>
+                    <option selected>Carnes frías</option>
+                    <option>Frutas y verduras</option>
+                </optgroup>
+                <optgroup label="Cuidado personal">
+                    <option>Higiene personal</option>
+                    <option>Belleza</option>
+                </optgroup>
+                <optgroup label="Hogar">
+                    <option>Productos de limpieza</option>
+                    <option>Jardinería</option>
+                </optgroup>
+            </select>
+            
+            <br/><input type="submit"/>
+            
+        </fieldset> <!--Agrupa los elementos de un formulario, sirve para clasificar-->
+    </form>
+</body>
+</html>
