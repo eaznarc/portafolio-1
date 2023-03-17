@@ -1,0 +1,22 @@
+.títulos{
+    color: darkblue;
+}
+.referencia{
+    color: crimson;
+}
+#uno{
+    background-color: aquamarine;
+}
+#dos{
+    background-color: aquamarine;
+}
+body{
+    background-color: bisque;
+}
+.parrafo{
+    color: chocolate;
+    font-style: italic;
+}
+p, blockquote, ol{
+    font-weight: bolder;
+}
