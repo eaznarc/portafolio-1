@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(98, 100, 100);
+}
+label{
+    color: rgb(129, 194, 194);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+.texto{
+    color: rgb(129, 194, 194);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+.titulo{
+    color: rgb(243, 240, 228);
+    font-weight: bolder;
+    text-align: center;
+}
+table{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+legend{
+    color: rgb(243, 240, 228);
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 25px;
+}
+h1{
+    font-weight:lighter;
+    color: rgb(154, 154, 206);
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2,h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(243, 240, 228);
+    text-align: center   
+}
