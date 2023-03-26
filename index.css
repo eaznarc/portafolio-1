@@ -1,0 +1,22 @@
+nav{
+    background-color: rgb(215, 188, 240);
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: rgb(192, 243, 226);
+}
+div{
+    background-color: bisque;
+}
+.tienda{
+    background-color: aliceblue;
+}
+form{
+    background-color: azure;
+}
+.logos{
+    background-color: aliceblue;
+    width: 60%;
+}
