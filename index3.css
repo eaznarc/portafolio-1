@@ -1,0 +1,36 @@
+nav{
+    background-color: rgb(215, 188, 240);
+    text-decoration: none;
+}
+.Nav{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(203, 126, 223);
+    text-decoration: none;
+    border: 1px solid rgb(74, 4, 92);
+}
+.celda{
+    border: 5px solid rgb(74, 4, 92);
+}
+.barra{
+    text-decoration: none;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: rgb(192, 243, 226);
+}
+div{
+    background-color: bisque;
+}
+.tienda{
+    background-color: aliceblue;
+}
+form{
+    background-color: azure;
+}
+.logos{
+    background-color: aliceblue;
+    width: 60%;
+}
