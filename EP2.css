@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "fuente";
+    src: url("EXP2/Oswald/Oswald-VariableFont_wght.ttf") format("truetype");
+}
+.titulo{
+    display: block;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid rgb(48, 3, 211);
+    text-align: center;
+    margin: 15px auto;
+    background: rgb(127, 229, 255);
+    position: absolute;
+    font-family: 'fuente', serif;
+    left: 80%;
+    bottom: 80%;
+    z-index: -2;
+
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: rgb(175, 60, 60) -10px 15px 10px;
+    -webkit-box-shadow: rgb(175, 60, 60) -10px 15px 10px;
+    box-shadow: rgb(175, 60, 60) -10px 15px 10px;
+}
+nav ul {
+    font-family: 'Bitter', serif;
+    list-style: none;
+    width: 150px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    background-color: #628309;
+  }
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+  }
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #07021f;
+   font-family: 'Bitter', serif; 
+  }
+  nav a:hover {
+    cursor: pointer;
+    background-color: #a17d2f;
+  }
+  nav ul ul {
+    display: none;
+    position: absolute;
+  }
+    nav ul ul { 
+    display: none;
+    position: absolute;
+    background-color: #b8990f;
+  }
+  nav li:hover > ul {
+    display: inherit;
+    height: 165px;
+  }
+
+
